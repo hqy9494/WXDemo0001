@@ -1,0 +1,36 @@
+/* pages/main/main.wxss */
+.main-contain {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 750rpx;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  width: 500rpx;
+  height: 900rpx;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300rpx;
+  height: 100rpx;
+  background-color: yellow;
+}
+.one {
+  width: 100rpx;
+  height: 50rpx;
+  background-color: blue;
+  color: white;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  text-align: center;
+}

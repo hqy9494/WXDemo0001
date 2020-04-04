@@ -1,0 +1,9 @@
+<!--pages/main/main.wxml-->
+<view class="main-contain">
+  <view class="center">
+    <view class="list" wx:for="{{list}}" wx:key="{{item.key}}">
+      <button class="one" bindtap="getScancode" data-value="{{item.value}}">{{item.value}}</button>
+    </view>
+    <view>{{result}}</view>
+  </view>
+</view>
